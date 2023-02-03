@@ -1,0 +1,27 @@
+@import url("reset.css");
+
+h1{
+   color:MediumBlue ;
+}
+#list{
+   color: OrangeRed ;
+}
+.section{
+   color:SandyBrown ;
+}
+.section + p{
+   color: blue;
+}
+.header,
+.header2{
+   color:SaddleBrown;
+}
+.start p{
+   color:LightSlateGrey ;
+}
+.end.story{
+   color: blueviolet;
+}
+.end.story ~ p {
+   color: Chocolate;
+}
