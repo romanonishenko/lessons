@@ -1,0 +1,99 @@
+/* --------------- */
+/* RESET STYLES */
+/* ------------- */
+@import url("reset.css");
+
+/* ---Шрифт-- */
+@import url(https://fonts.googleapis.com/css?family=Unbounded:300,500,700&&display=swap);
+
+@font-face {
+   font-family: 'Mona-Sans SemiBold Narrow';
+   src: url('../fonts/Mona-Sans-SemiBoldNarrow.woff2') format('woff2'),
+       url('../fonts/Mona-Sans-SemiBoldNarrow.woff') format('woff');
+   font-weight: 600;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Mona-Sans';
+   src: url('../fonts/Mona-Sans-Light.woff2') format('woff2'),
+       url('../fonts/Mona-Sans-Light.woff') format('woff');
+   font-weight: 300;
+   font-style: normal;
+   font-display: swap;
+}
+
+.head{
+font-family: "Oswald",sans-serif;
+font-size: 18px;
+font-weight: 500;
+color: #FFA07A;
+}
+.head__title{
+   font-size: 30px;
+font-style: normal;
+text-align: center;
+letter-spacing: 5px;
+text-shadow: 2px 2px 5px black;
+}
+.head__start{
+   text-align: right;
+   text-decoration: underline;
+   text-transform:lowercase ;
+   font-size: 15px;
+   color:#FFA500 ;
+}
+.head__text{
+   text-transform: uppercase;
+   white-space:normal;
+   color: rgba(84, 134, 39, 0.53) ;
+}
+.head__body{
+   font-family: "Mona-Sans SemiBold Narrow", "Arial", "Helvetica", sans-serif;
+   text-transform: lowercase;
+   white-space:normal;
+   color: rgba(135, 40, 79, 0.52) ;
+}
+.main{
+font-family: "Mona-Sans SemiBold Narrow",sans-serif;
+}
+.main__tittle{
+   font-size: 35px;
+   font-style: italic;
+   text-align: center;
+   color: #FF6347;
+}
+.main__text{
+   font-size: 15px;
+   font-style: normal;
+   text-decoration: overline;
+   color: #C0C0C0;
+}
+.main__body{
+   font-size: 17px;
+   font-style:oblique;
+   text-align:left;
+   color: #808000;
+   letter-spacing:normal;
+}
+.main__foot{
+   font-family: "Unbounded",serif;
+   word-spacing: 10px;
+   color: #F4A460;
+
+}
+.letter{
+color:#FF0000;
+}
+.navigation{
+   line-height:40px;
+   color:#008080 ;
+}
+.foot__text{
+text-indent: 30px;
+color:#D2B48C ;
+}
+.foot__end{
+   color:#008080;
+}
